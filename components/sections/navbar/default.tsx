@@ -47,14 +47,14 @@ export default function Navbar({
   homeUrl = siteConfig.url,
   mobileLinks = [    {
       text: "Get Early Access",
-      href: siteConfig.url,
+      href: "#cta",
       
 
     },],
   actions = [
     {
       text: "Get Early Access",
-      href: siteConfig.url,
+      href: "#cta",
       isButton: true,
       variant: "ghost",
     },

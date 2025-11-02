@@ -45,16 +45,15 @@ export default function Hero({
   ),
   badge = ((
     <Badge variant="outline" className="animate-appear">
-
-      
+      <a href="#cta" className="flex items-center gap-1">
         Get Early Access
         <ArrowRightIcon className="size-3" />
-      
+      </a>
     </Badge>
   )),
   buttons = [
     {
-      href: siteConfig.getStartedUrl,
+      href: "#cta",
       text: "Get Early Access",
       variant: "default",
     }

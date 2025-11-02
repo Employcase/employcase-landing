@@ -26,49 +26,46 @@ interface ItemsProps {
 }
 
 export default function Items({
-  title = "Everything you need. Nothing you don't.",
+  title = "Better data. Smarter hires. Less time wasted.",
   items = [
     {
-      title: "Accessibility first",
-      description: "Fully WCAG 2.0 compliant, made with best a11y practices",
-      icon: <ScanFaceIcon className="size-5 stroke-1" />,
-    },
-    {
-      title: "Responsive design",
-      description: "Looks and works great on any device and screen size",
-      icon: <MonitorSmartphoneIcon className="size-5 stroke-1" />,
-    },
-    {
-      title: "Light and dark mode",
-      description:
-        "Seamless switching between color schemes, 6 themes included",
-      icon: <EclipseIcon className="size-5 stroke-1" />,
-    },
-    {
-      title: "Easy to customize",
-      description: "Flexible options to match your product or brand",
+      title: "2D/3D Job Simulations",
+      description: "Interactive candidate assessments that collect better data than static CVs",
       icon: <BlocksIcon className="size-5 stroke-1" />,
     },
     {
-      title: "Top-level performance",
-      description: "Made for lightning-fast load times and smooth interactions",
-      icon: <FastForwardIcon className="size-5 stroke-1" />,
+      title: "AI Analysis Pipeline",
+      description: "Advanced AI tools to evaluate candidate data and engagement metrics",
+      icon: <ScanFaceIcon className="size-5 stroke-1" />,
     },
     {
-      title: "Production ready",
-      description: "Thoroughly tested and launch-prepared",
-      icon: <RocketIcon className="size-5 stroke-1" />,
-    },
-    {
-      title: "Made for localisation",
-      description:
-        "Easy to implement support for multiple languages and regions",
+      title: "AI Interviews",
+      description: "Automated chat and voice interviews powered by AI technology",
       icon: <LanguagesIcon className="size-5 stroke-1" />,
     },
     {
-      title: "CMS friendly",
-      description:
-        "Built to work with your any headless content management system",
+      title: "AI Co-Pilot Assistant",
+      description: "Automatically lists and moves candidates through your hiring pipeline",
+      icon: <RocketIcon className="size-5 stroke-1" />,
+    },
+    {
+      title: "ATS Integration",
+      description: "Seamless integration with popular applicant tracking systems",
+      icon: <MonitorSmartphoneIcon className="size-5 stroke-1" />,
+    },
+    {
+      title: "Targeted Hiring Tools",
+      description: "Specific tools designed for specific hire cases and scenarios",
+      icon: <FastForwardIcon className="size-5 stroke-1" />,
+    },
+    {
+      title: "Data-Driven Decisions",
+      description: "Make better hiring decisions with comprehensive candidate insights",
+      icon: <EclipseIcon className="size-5 stroke-1" />,
+    },
+    {
+      title: "Save Time & Money",
+      description: "Reduce time wasted on poor judgements and improve hiring outcomes",
       icon: <SquarePenIcon className="size-5 stroke-1" />,
     },
   ],

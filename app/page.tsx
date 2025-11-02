@@ -15,7 +15,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Items />
-      <CTA />
+      <div id="cta">
+        <CTA />
+      </div>
       <Footer />
     </main>
   );
