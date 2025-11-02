@@ -23,22 +23,27 @@ const EmploycaseLogo = (props: React.SVGProps<SVGSVGElement>) => (
       strokeWidth="0.4"
     />
 
-    {/* small top gap showing background between handle and body:
-        implemented by drawing a slightly narrower rounded rect (same color as background)
-        to create the white/gray strip visible in the photo */}
+    {/* small top gap showing background between handle and body */}
     <rect
-      x="8.1"
-      y="4.55"
-      width="7.8"
-      height="1.1"
-      rx="0.55"
+      x="7.5"
+      y="5.2"
+      width="9"
+      height="0.8"
+      rx="0.4"
       fill="#E8E8E9"
     />
 
-    {/* handle (dark) */}
+    {/* handle (dark) - wider arc shape */}
     <path
-      d="M10.1 4.55c0-0.66 0.54-1.2 1.2-1.2h1.4c0.66 0 1.2 0.54 1.2 1.2v1.1h-3.8V4.55Z"
-      fill="#24262A"
+      d="M7.5 6.0 Q7.5 2.5 12 2.5 Q16.5 2.5 16.5 6.0"
+      fill="none"
+      stroke="#24262A"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+    />
+    <path
+      d="M7.5 6.0 Q7.5 2.5 12 2.5 Q16.5 2.5 16.5 6.0"
+      fill="none"
       stroke="white"
       strokeWidth="0.4"
     />
