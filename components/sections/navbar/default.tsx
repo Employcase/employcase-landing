@@ -14,6 +14,7 @@ import {
 } from "../../ui/navbar";
 import Navigation from "../../ui/navigation";
 import { Sheet, SheetContent, SheetTrigger } from "../../ui/sheet";
+import EmploycaseLogo from "@/components/logos/employcase-logo";
 
 interface NavbarLink {
   text: string;
@@ -41,24 +42,19 @@ interface NavbarProps {
 }
 
 export default function Navbar({
-  logo = <LaunchUI />,
-  name = "Launch UI",
+  logo = <EmploycaseLogo />,
+  name = "Employcase",
   homeUrl = siteConfig.url,
-  mobileLinks = [
-    { text: "Getting Started", href: siteConfig.url },
-    { text: "Components", href: siteConfig.url },
-    { text: "Documentation", href: siteConfig.url },
-  ],
+  mobileLinks = [],
   actions = [
-    { text: "Sign in", href: siteConfig.url, isButton: false },
     {
-      text: "Get Started",
+      text: "Get Early Access",
       href: siteConfig.url,
       isButton: true,
       variant: "default",
     },
   ],
-  showNavigation = true,
+  showNavigation = false,
   customNavigation,
   className,
 }: NavbarProps) {

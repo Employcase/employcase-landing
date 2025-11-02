@@ -27,7 +27,7 @@ export default function CTA({
   buttons = [
     {
       href: siteConfig.getStartedUrl,
-      text: "Get Started",
+      text: "Get Early Access",
       variant: "default",
     },
   ],

@@ -57,15 +57,9 @@ export default function Hero({
   buttons = [
     {
       href: siteConfig.getStartedUrl,
-      text: "Get Started",
+      text: "Get Early Access",
       variant: "default",
-    },
-    {
-      href: siteConfig.links.github,
-      text: "Github",
-      variant: "glow",
-      icon: <Github className="mr-2 size-4" />,
-    },
+    }
   ],
   className,
 }: HeroProps) {
