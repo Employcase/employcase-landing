@@ -4,7 +4,7 @@ export const siteConfig = {
   getStartedUrl: "https://www.employcase.com",
   ogImage: "https://www.employcase.com/images/Employcase_logo.png",
   description:
-   "A candidate engagement oriented tools app that have spesific tools for spesific hire cases.",
+   "A candidate engagement oriented tools app that have specific tools for specific hire cases.",
   links: {
     twitter: "https://twitter.com/employcase",
     email: "mailto:info@employcase.com",
