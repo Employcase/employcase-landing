@@ -29,7 +29,7 @@ interface HeroProps {
 }
 
 export default function Hero({
-  title = "Simulations you need For every hire case",
+  title = "Simulations you need for every hire case",
   description = "A candidate engagement oriented tools app that have spesific tools for spesific hire cases.",
   mockup = (
     <Screenshot
