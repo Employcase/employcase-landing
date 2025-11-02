@@ -31,29 +31,27 @@ interface HeroProps {
 }
 
 export default function Hero({
-  title = "Give your big idea the design it deserves",
-  description = "Professionally designed blocks and templates built with React, Shadcn/ui and Tailwind that will help your product stand out.",
+  title = "Simulations you need For every hire case",
+  description = "A candidate engagement oriented tools app that have spesific tools for spesific hire cases.",
   mockup = (
     <Screenshot
-      srcLight="/dashboard-light.png"
-      srcDark="/dashboard-dark.png"
+      srcLight="/interactions-light.png"
+      srcDark="/interactions-dark.png"
       alt="Launch UI app screenshot"
       width={1248}
       height={765}
       className="w-full"
     />
   ),
-  badge = (
+  badge = ((
     <Badge variant="outline" className="animate-appear">
-      <span className="text-muted-foreground">
-        New version of Launch UI is out!
-      </span>
-      <a href={siteConfig.getStartedUrl} className="flex items-center gap-1">
-        Get started
+
+      
+        Get Early Access
         <ArrowRightIcon className="size-3" />
-      </a>
+      
     </Badge>
-  ),
+  )),
   buttons = [
     {
       href: siteConfig.getStartedUrl,

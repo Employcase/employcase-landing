@@ -23,7 +23,7 @@ interface CTAProps {
 }
 
 export default function CTA({
-  title = "Start building",
+  title = "Join Early Access Group",
   buttons = [
     {
       href: siteConfig.getStartedUrl,

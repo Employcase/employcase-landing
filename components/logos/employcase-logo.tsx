@@ -19,6 +19,8 @@ const EmploycaseLogo = (props: React.SVGProps<SVGSVGElement>) => (
       height="12"
       rx="2.8"
       fill="#24262A"
+      stroke="white"
+      strokeWidth="0.4"
     />
 
     {/* small top gap showing background between handle and body:
@@ -37,6 +39,8 @@ const EmploycaseLogo = (props: React.SVGProps<SVGSVGElement>) => (
     <path
       d="M10.1 4.55c0-0.66 0.54-1.2 1.2-1.2h1.4c0.66 0 1.2 0.54 1.2 1.2v1.1h-3.8V4.55Z"
       fill="#24262A"
+      stroke="white"
+      strokeWidth="0.4"
     />
 
     {/* tie collar (left) */}

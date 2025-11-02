@@ -45,13 +45,18 @@ export default function Navbar({
   logo = <EmploycaseLogo />,
   name = "Employcase",
   homeUrl = siteConfig.url,
-  mobileLinks = [],
+  mobileLinks = [    {
+      text: "Get Early Access",
+      href: siteConfig.url,
+      
+
+    },],
   actions = [
     {
       text: "Get Early Access",
       href: siteConfig.url,
       isButton: true,
-      variant: "default",
+      variant: "ghost",
     },
   ],
   showNavigation = false,

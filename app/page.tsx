@@ -14,11 +14,7 @@ export default function Home() {
     <main className="bg-background text-foreground min-h-screen w-full">
       <Navbar />
       <Hero />
-      <Logos />
       <Items />
-      <Stats />
-      <Pricing />
-      <FAQ />
       <CTA />
       <Footer />
     </main>
