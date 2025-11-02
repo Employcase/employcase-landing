@@ -12,7 +12,9 @@ export const siteConfig = {
     instagram: "https://instagram.com/employcase",
   },
   pricing: {
-
+    pro: "https://www.employcase.com",
+    proTeam: "https://www.employcase.com",
+    team: "https://www.employcase.com",
   },
   stats: {
     figma: 6124,

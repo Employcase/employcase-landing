@@ -2,10 +2,10 @@ import { type VariantProps } from "class-variance-authority";
 import { Menu } from "lucide-react";
 import { ReactNode } from "react";
 
+import EmploycaseLogo from "@/components/logos/employcase-logo";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
-import LaunchUI from "../../logos/launch-ui";
 import { Button, buttonVariants } from "../../ui/button";
 import {
   Navbar as NavbarComponent,
@@ -14,7 +14,6 @@ import {
 } from "../../ui/navbar";
 import Navigation from "../../ui/navigation";
 import { Sheet, SheetContent, SheetTrigger } from "../../ui/sheet";
-import EmploycaseLogo from "@/components/logos/employcase-logo";
 
 interface NavbarLink {
   text: string;

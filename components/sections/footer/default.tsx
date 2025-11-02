@@ -1,9 +1,9 @@
 import { ReactNode } from "react";
 
+import EmploycaseLogo from "@/components/logos/employcase-logo";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
-import LaunchUI from "../../logos/launch-ui";
 import {
   Footer,
   FooterBottom,
@@ -11,7 +11,6 @@ import {
   FooterContent,
 } from "../../ui/footer";
 import { ModeToggle } from "../../ui/mode-toggle";
-import EmploycaseLogo from "@/components/logos/employcase-logo";
 
 interface FooterLink {
   text: string;
