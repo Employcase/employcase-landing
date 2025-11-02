@@ -23,13 +23,9 @@ interface CTAProps {
 }
 
 export default function CTA({
-  title = "Join Early Access Group",
+  title = "",
   buttons = [
-    {
-      href: siteConfig.getStartedUrl,
-      text: "Get Early Access",
-      variant: "default",
-    },
+
   ],
   className,
 }: CTAProps) {
@@ -39,6 +35,7 @@ export default function CTA({
         <h2 className="max-w-[640px] text-3xl leading-tight font-semibold sm:text-5xl sm:leading-tight">
           {title}
         </h2>
+        <iframe className="airtable-embed" src="https://airtable.com/embed/appwNHbSZ3J4G9oE0/pag9icdLbwN9QGgHi/form" width="100%" height="533" ></iframe>
         {buttons !== false && buttons.length > 0 && (
           <div className="flex justify-center gap-4">
             {buttons.map((button, index) => (
