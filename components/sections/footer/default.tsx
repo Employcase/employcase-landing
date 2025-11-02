@@ -11,6 +11,7 @@ import {
   FooterContent,
 } from "../../ui/footer";
 import { ModeToggle } from "../../ui/mode-toggle";
+import EmploycaseLogo from "@/components/logos/employcase-logo";
 
 interface FooterLink {
   text: string;
@@ -33,34 +34,20 @@ interface FooterProps {
 }
 
 export default function FooterSection({
-  logo = <LaunchUI />,
-  name = "Launch UI",
+  logo = <EmploycaseLogo />,
+  name = "Employcase",
   columns = [
-    {
-      title: "Product",
-      links: [
-        { text: "Changelog", href: siteConfig.url },
-        { text: "Documentation", href: siteConfig.url },
-      ],
-    },
-    {
-      title: "Company",
-      links: [
-        { text: "About", href: siteConfig.url },
-        { text: "Careers", href: siteConfig.url },
-        { text: "Blog", href: siteConfig.url },
-      ],
-    },
-    {
-      title: "Contact",
-      links: [
-        { text: "Discord", href: siteConfig.url },
-        { text: "Twitter", href: siteConfig.url },
-        { text: "Github", href: siteConfig.links.github },
-      ],
-    },
+
+  {
+    title: "Contact",
+    links: [
+      { text: "info@employcase.com", href: "mailto:info@employcase.com" },
+      { text: "X(Twitter)", href: "https://x.com/employcase" },
+    ],
+
+  },
   ],
-  copyright = "© 2025 Mikołaj Dobrucki. All rights reserved",
+  copyright = "© 2025 Employcase. All rights reserved",
   policies = [
     { text: "Privacy Policy", href: siteConfig.url },
     { text: "Terms of Service", href: siteConfig.url },
