@@ -1,19 +1,18 @@
 export const siteConfig = {
-  name: "Launch UI",
-  url: "https://launchuicomponents.com",
-  getStartedUrl:
-    "https://launchuicomponents.com/docs/getting-started/introduction",
-  ogImage: "https://launchuicomponents.com/og.jpg",
+  name: "Employcase - candidate application simulations",
+  url: "https://www.employcase.com",
+  getStartedUrl: "https://www.employcase.com",
+  ogImage: "https://www.employcase.com/images/Employcase_logo.png",
   description:
-    "Landing page components built with React, Shadcn/ui and Tailwind that will make your website feel premium.",
+   "A candidate engagement oriented tools app that have spesific tools for spesific hire cases.",
   links: {
-    twitter: "https://twitter.com/mikolajdobrucki",
-    github: "https://github.com/launch-ui/launch-ui",
-    email: "mailto:contact@mikolajdobrucki.com",
+    twitter: "https://twitter.com/employcase",
+    email: "mailto:info@employcase.com",
+    linkedin: "https://linkedin.com/company/employcase",
+    instagram: "https://instagram.com/employcase",
   },
   pricing: {
-    pro: "https://launchui.lemonsqueezy.com/buy/b4798c68-c858-4c34-860b-069b5a0d6c4e",
-    team: "https://launchui.lemonsqueezy.com/buy/130d8cfe-e123-464b-9f67-c74c5fedfb45",
+
   },
   stats: {
     figma: 6124,
